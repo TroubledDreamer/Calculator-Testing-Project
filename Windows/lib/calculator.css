@@ -1,0 +1,68 @@
+#fixture{
+    width: 450px;
+    height: 600px;
+    background-color:rgba(129,200,254,255);
+}
+
+#display{
+    width: 90%;
+    height: 80px;
+    margin: 10px auto;
+    background-color: rgb(42, 41, 41);
+}
+
+
+#buttons{
+    width: 90%;
+    height: 400px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    padding: 10px;
+}
+
+.buttonContainer button {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border-radius: 14%;
+    background-color: #cee9fc;
+
+}
+
+#space{
+    height: 20px;
+}
+
+#solar{
+    margin-top: 20px;
+    height: 40px;
+    width: 40%;
+    margin-left: 55%;
+    background-color: rgb(80, 79, 79);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+#solar div{
+    border: 5px solid rgba(218, 214, 214, 0);
+    border-right: 3px solid rgb(218, 214, 214);
+    
+
+}
+
+#solar div:last-child{
+    border-right: none;
+}
+
+
+#result{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5px;
+    font-size: 60px;
+    color: #80a1ba;
+    overflow: hidden;
+
+}
